@@ -1,7 +1,7 @@
 
 # 🧠 Scientific Paper Explorer & Explainer
 
-🙏Thank you to arXiv for use of its open access interoperability. This is independent and non-commercial project.
+🙏Thank you to arXiv for use of its open access interoperability. This is an independent and non-commercial project.
 
 A Gradio-based web application to search scientific papers on arXiv, generate simplified summaries, and provide translations (so far into Spanish). Developed as part of an NLP and data science learning journey, the project emphasizes real-world applications of transformers, multilingual processing, and UI integration.
 
@@ -33,7 +33,7 @@ So far, with the first version, you can:
 - 💬 **Simplify** complex content for easier understanding
 - 🌍 **Translate** summaries into Spanish (via Google Translate)
 
-As a Researcher, I would love to have something like that at the beginning of my journey.
+As a researcher, I would love to have something like that at the beginning of my journey.
 
 ---
 
