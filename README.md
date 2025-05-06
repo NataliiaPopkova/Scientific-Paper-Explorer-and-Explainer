@@ -1,20 +1,39 @@
 
-# 🧠 ArXiv Paper Explorer & Explainer
+# 🧠 Scientific Paper Explorer & Explainer
 
-A Gradio-based web application to search scientific papers on arXiv, generate simplified summaries, and provide translations in Spanish. Developed as part of an NLP and data science learning journey, the project emphasizes real-world applications of transformers, multilingual processing, and UI integration.
+🙏Thank you to arXiv for use of its open access interoperability. This is independent and non-commercial project.🙏
+
+A Gradio-based web application to search scientific papers on arXiv, generate simplified summaries, and provide translations (so far into Spanish). Developed as part of an NLP and data science learning journey, the project emphasizes real-world applications of transformers, multilingual processing, and UI integration.
+
+---
+
+## 💬 Imagine you hear a team member mention a new ML model, a framework, an algorithm ...
+
+- and you want to quickly grasp the essence to discuss its integration into your ML operations.
+- or you want to get a scientifically proven reason to better communicate with non-technical stakeholders.
+- or your English is... well...you can read papers. But you feel more confident when reading in your native language (e.g. Spanish)
+- or your Dad asked you what is it that you actually do at your tech job, but you lack simple terms to explain?
+
+
+---
 
 ---
 
 ## 🚀 Use Case
 
-This tool is designed for students, junior data scientists, researchers, and non-native English speakers who want to:
+My idea was that, as modern science moves so quickly, sometimes we do not even have enough time to process the findings before they are beaten by an improved solution.  And there is no better feeling than understanding something new on your own.
+With a help of an Explorer and Explainer, for example.
 
-- 📚 **Search** for the latest academic papers on a given topic (via arXiv API)
-- ✏️ **Summarize** abstracts using transformer-based summarization (BART)
+I hope that it lays a foundation for a multilingual, representative and accessible research papers system that I had in mind as a personal project since I started learning Data Science.
+
+So far, with the first version, you can:
+
+- 📚 **Search** for the latest academic papers (max 10) on a given topic (via arXiv API)
+- ✏️ **Summarize** fetched abstracts using transformer-based summarization (BART)
 - 💬 **Simplify** complex content for easier understanding
 - 🌍 **Translate** summaries into Spanish (via Google Translate)
 
-It's particularly useful in multilingual research teams or educational settings where access to simplified and translated content is valuable.
+As a Researcher, I would love to have something like that at the beginning of my journey.
 
 ---
 
@@ -61,27 +80,17 @@ It's particularly useful in multilingual research teams or educational settings 
 
 ## 📈 What’s Next
 
-- [ ] Add **metadata filtering** (e.g., by subject area or date)  
-- [ ] Implement **Spanish summarization** directly (using multilingual models like mBART or mT5)  
-- [ ] Add support for **PDF upload and summarization**  
-- [ ] Store and **rank saved papers** with a personal note system  
-- [ ] Deploy via **Hugging Face Spaces** with authentication  
+- [ ] Resolve **version issue** and improve styles code, getting rid of the temporal solutions 
+- [ ] Allow **language selection** for translation (another model will be selected) 
+- [ ] Add support for **PDF direct download**  
+- [ ] Keywords: **extract them**? Recommend other titles based on this? 
+- [ ] Consider hosting at a cloud-based platform like **AWS** 
 
 ---
 
-## 💼 Relevance to Junior DS/NLP Roles
 
-This project demonstrates:
-
-- Ability to build complete data + NLP pipelines  
-- UI + UX thinking with Gradio and CSS  
-- Troubleshooting in modern Python environments (Python 3.13)  
-- Use of Hugging Face transformers in production-level workflows  
-- Awareness of multilingual NLP and accessibility  
-
----
 
 ## ▶️ Live Demo
 
-[Launch the demo here](https://e1fe8ba7bbfa1ca98c.gradio.live)  
-_(Hosted via Gradio share link — may take a moment to load if asleep)_
+[Launch the demo here](https://4ffb7d8df33b778f2f.gradio.live)  
+_(Hosted via Gradio share link - please ask me for an updated one)_
