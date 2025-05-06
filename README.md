@@ -36,6 +36,13 @@ So far, with the first version, you can:
 As a researcher, I would love to have something like that at the beginning of my journey.
 
 ---
+![Alt text](https://github.com/NataliiaPopkova/Scientific-Paper-Explorer-and-Explainer/blob/main/1.png)
+
+The first explanation of the abstract might even be enough. But if you coould use a clearer version to better understand the idea...
+
+![Alt text](https://github.com/NataliiaPopkova/Scientific-Paper-Explorer-and-Explainer/blob/main/2.png)
+
+... a "Make Simpler" button could be used. The translation function can be applied both to the initial and the simplified version.
 
 ## ⚙️ Features
 
