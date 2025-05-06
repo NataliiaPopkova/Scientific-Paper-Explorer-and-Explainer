@@ -1,0 +1,15 @@
+jupyter
+ipykernel
+numpy
+pandas
+matplotlib
+plotly
+scikit-learn
+seaborn
+notebook
+transformers
+nltk
+gradio==3.42.0
+arxiv 
+torch
+googletrans==4.0.0-rc1
